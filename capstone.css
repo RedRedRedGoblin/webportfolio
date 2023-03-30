@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('./images/jumbotron-background-img.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    /* margin: 0;
+    padding: 0;
+    overflow-x: hidden; */
+}
+.wrapper {
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+    /* .navbar-nav li {
+        display: inline;   
+        color: black;
+        margin-right: 1em;
+
+    }
+    .navbar ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+    } */
+    .home {
+        margin-right: auto;
+    }
+    .navbar {
+        
+        background-color: #c3cac2;
+        padding: 1em;
+        transition: 0.5s;
+    }
+    .scrolled {
+        background-color: #fa597f;
+        transition: 0.4s;
+        box-shadow: 0px 1px 10px #333;
+    }
+    
+    .scrolled .nav-link {
+        color: #333;
+    }
+    
+    .scrolled .nav-link.active {
+        font-weight: bold;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+    /* .landing-page {
+        background-color: rgba(0, 0, 0, 0.8);
+      
+    } */
+    .landing-page-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15em 4em 15em;
+    align-self: center;
+    color: ghostwhite;
+
+
+ }
+    .landing-page-content p {
+
+    margin-right: auto;
+    color: ghostwhite;
+ }
+    .landing-page-content img {
+    border-radius: 50%;
+    
+    
+
+ }
+ @media (min-width: 576px) and (max-width:720px){
+
+    .landing-page-content img {
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom: 3em;
+    }
+}    
+    
+    .landing-page-content h2{
+    padding-bottom: 10px;
+ }
+
+  .navbar-active {
+    color: white;
+    font-weight: bold;
+    
+  }
+  
+  
+.jumbotron {
+    padding: 10em 1rem 14em;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: lighter;
+    font-family: "Montserrat";
+    background: linear-gradient(to bottom, #000000 80%);
+    transition: background 0.5s ease-in-out;
+ }
+ .profile-img {
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+ }
+
+.jumbotron h1 {
+    font-weight: lighter;
+    margin-bottom: 0.5em;
+}
+
+.jumbotron h2 {
+    font-weight: lighter;
+    margin-bottom: 0.5em;
+}
+.jumbotron h3 {
+    font-weight: lighter;
+    margin-bottom: 0.5em;
+}
+/* .landing-page {
+    background: linear-gradient(to bottom, #9a9f99 0%, #1fcd08 100%);
+} */
+.landing-page, .gallery, .tools {
+    background-color: #7daa92;
+    margin: 0 5em 0;
+}
+
+.landing-page-content h2 {
+    color: #fa597f;
+}
+
+.h2-active {
+    color: #fa597f;
+    transition: 0.5s;
+}
+#tools {
+    margin: 0em 5em 0em;
+    padding: 8em 3em 8em;
+}
+#contactUs h1{
+    text-align: center;
+    
+}
+#contactUs {
+    padding-top: 8em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 8em;
+}
+
+@media (max-width: 720px){
+    #about-us, #gallery, #tools {
+        margin: 0 0 0;
+    }
+}
+
+
+
+
+
